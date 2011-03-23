@@ -1,0 +1,22 @@
+#
+# ~/.bashrc
+# 
+# auth: fs
+# date: 11-12-2010
+#
+
+
+# bash prompt
+export PS1="\u@\h \w \\$ "
+
+# program aliases
+alias py=python3
+
+# histfile settings
+export HISTCONTROL=erasedups
+export HISTSIZE=10000
+shopt -s histappend
+
+# misc
+
+export EDITOR=/usr/bin/vim
